@@ -4,13 +4,13 @@
     height: 10px;
     background: white;
     border-radius: 50%;
-  }
+}
 
-  .snow:nth-child(1) {
+.snow:nth-child(1) {
     opacity: 0.6064;
     transform: translate(56.5936vw, -10px) scale(0.1606);
     animation: fall-1 22s -16s linear infinite;
-  }
+}
   @keyframes fall-1 {
     34.585% {
       transform: translate(57.9903vw, 34.585vh) scale(0.1606);
@@ -18,13 +18,13 @@
     to {
       transform: translate(57.29195vw, 100vh) scale(0.1606);
     }
-  }
+}
 
-  .snow:nth-child(2) {
+.snow:nth-child(2) {
     opacity: 0.0623;
     transform: translate(38.6106vw, -10px) scale(0.3982);
     animation: fall-2 17s -21s linear infinite;
-  }
+}
   @keyframes fall-2 {
     70.443% {
       transform: translate(37.0175vw, 70.443vh) scale(0.3982);
@@ -32,13 +32,13 @@
     to {
       transform: translate(37.81405vw, 100vh) scale(0.3982);
     }
-  }
+}
 
-  .snow:nth-child(3) {
+.snow:nth-child(3) {
     opacity: 0.7242;
     transform: translate(18.1453vw, -10px) scale(0.9984);
     animation: fall-3 10s -24s linear infinite;
-  }
+}
   @keyframes fall-3 {
     71.78% {
       transform: translate(22.1161vw, 71.78vh) scale(0.9984);
@@ -46,14 +46,13 @@
     to {
       transform: translate(20.1307vw, 100vh) scale(0.9984);
     }
-  }
+}
 
-  /* Additional snowflakes */
-  .snow:nth-child(4) {
+.snow:nth-child(4) {
     opacity: 0.5;
     transform: translate(10vw, -10px) scale(0.3);
     animation: fall-4 15s -12s linear infinite;
-  }
+}
   @keyframes fall-4 {
     50% {
       transform: translate(10vw, 50vh) scale(0.3);
@@ -61,13 +60,13 @@
     to {
       transform: translate(10vw, 100vh) scale(0.3);
     }
-  }
+}
 
-  .snow:nth-child(5) {
+.snow:nth-child(5) {
     opacity: 0.7;
     transform: translate(30vw, -10px) scale(0.5);
     animation: fall-5 18s -15s linear infinite;
-  }
+}
   @keyframes fall-5 {
     60% {
       transform: translate(30vw, 60vh) scale(0.5);
@@ -75,13 +74,13 @@
     to {
       transform: translate(30vw, 100vh) scale(0.5);
     }
-  }
+}
 
-  .snow:nth-child(6) {
+.snow:nth-child(6) {
     opacity: 0.4;
     transform: translate(50vw, -10px) scale(0.4);
     animation: fall-6 20s -18s linear infinite;
-  }
+}
   @keyframes fall-6 {
     40% {
       transform: translate(50vw, 40vh) scale(0.4);
@@ -89,13 +88,13 @@
     to {
       transform: translate(50vw, 100vh) scale(0.4);
     }
-  }
+}
 
-  .snow:nth-child(7) {
+.snow:nth-child(7) {
     opacity: 0.8;
     transform: translate(70vw, -10px) scale(0.6);
     animation: fall-7 16s -10s linear infinite;
-  }
+}
   @keyframes fall-7 {
     30% {
       transform: translate(70vw, 30vh) scale(0.6);
@@ -103,13 +102,13 @@
     to {
       transform: translate(70vw, 100vh) scale(0.6);
     }
-  }
+}
   
-  .snow:nth-child(8) {
+.snow:nth-child(8) {
     opacity: 0.3;
     transform: translate(12vw, -10px) scale(0.25);
     animation: fall-8 14s -14s linear infinite;
-  }
+}
   @keyframes fall-8 {
     60% {
       transform: translate(12vw, 60vh) scale(0.25);
@@ -117,13 +116,13 @@
     to {
       transform: translate(12vw, 100vh) scale(0.25);
     }
-  }
+}
   
-  .snow:nth-child(9) {
+.snow:nth-child(9) {
     opacity: 0.6;
     transform: translate(40vw, -10px) scale(0.35);
     animation: fall-9 19s -16s linear infinite;
-  }
+}
   @keyframes fall-9 {
     50% {
       transform: translate(40vw, 50vh) scale(0.35);
@@ -131,13 +130,13 @@
     to {
       transform: translate(40vw, 100vh) scale(0.35);
     }
-  }
+}
   
-  .snow:nth-child(10) {
+.snow:nth-child(10) {
     opacity: 0.9;
     transform: translate(60vw, -10px) scale(0.7);
     animation: fall-10 21s -20s linear infinite;
-  }
+}
   @keyframes fall-10 {
     40% {
       transform: translate(60vw, 40vh) scale(0.7);
@@ -145,4 +144,4 @@
     to {
       transform: translate(60vw, 100vh) scale(0.7);
     }
-  }
+}

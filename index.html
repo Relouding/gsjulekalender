@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GS Julekalender</title>
-    <link rel="stylesheet" href="./style/index.css">
-    <link rel="stylesheet" href="./style/snow.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/snow.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
@@ -30,14 +30,31 @@
     <div class="snow"></div>
     <div class="snow"></div>
     <main>
-    
-      <div class="container">
-        <div id="luke_en" class="luke_en">Luke 1</div>
-        <div id="luke_to" class="luke_to">Luke 2</div>
-        <div id="luke_tre" class="luke_tre">Luke 3</div>
-        <div id="luke_fire" class="luke_fire">Luke 4</div>
+      <div id="luke_en" class="container">
+        <div class="luke_en">
+          <div id="overlay_en" class="overlay_en"></div>
+          Luke 1
+        </div>
+      </div>
+      <div id="luke_to" class="container closed">
+        <div class="luke_to">
+          <div id="overlay_to" class="overlay_to"></div>
+          Luke 2
+        </div>
+      </div>
+      <div id="luke_tre" class="container closed">
+        <div class="luke_tre">
+          <div id="overlay_tre" class="overlay_tre"></div>
+          Luke 3
+        </div>
+      </div>
+      <div id="luke_fire" class="container closed">
+        <div class="luke_fire">
+          <div id="overlay_fire" class="overlay_fire"></div>
+          Luke 4
+        </div>
       </div>
     </main>
-	<script src="index.js"></script>
+  <script src="scripts/toggle.js"></script>
   </body>
 </html>

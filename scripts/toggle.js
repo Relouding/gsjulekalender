@@ -6,10 +6,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function containerClickHandler(containerId, overlay1Id, overlay2Id, overlay3Id) {
         const container = document.getElementById(containerId);
+
+        // Check if the container is closed
         if (!container.classList.contains("closed")) {
+            const overlay_en = document.getElementById(overlay1Id);
+            const overlay_to = document.getElementById(overlay2Id);
+            const overlay_tre = document.getElementById(overlay3Id);
+
             toggleOverlay(overlay1Id);
             toggleOverlay(overlay2Id);
             toggleOverlay(overlay3Id);
+
+            // Delay for hiding overlays
+            setTimeout(() => {
+                overlay_en.style.display = "none";
+                overlay_to.style.display = "none";
+                overlay_tre.style.display = "none";
+            }, 1450);
         } else {
             // Add shake animation
             container.classList.add("shake");

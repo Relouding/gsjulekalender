@@ -24,12 +24,15 @@ main {
 .luke_to,
 .luke_tre,
 .luke_fire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 300px;
     height: 300px;
     border-radius: .3em;
-    z-index: 1;
     overflow: hidden;
+    text-align: center;
 }
 
 .luke_en {
@@ -92,11 +95,16 @@ main {
     border-bottom: .2em solid #F2F2F2;
 }
 
-p {
+a {
     color: #000;
     font-family: harrypotter;
-    font-size: 2em;
-    margin: 1em;
+    font-size: 5em;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.luke_en a {
+    display: block;
 }
 
 .overlay_tre_en,
@@ -209,7 +217,7 @@ p {
 
 /* hide scrollbar */
 body::-webkit-scrollbar {
-    width: 0; /* Hide scrollbar space */
+    width: 0;
 }
 
 body::-webkit-scrollbar-track {
